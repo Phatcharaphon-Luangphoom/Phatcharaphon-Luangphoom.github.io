@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Computer Science</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+        }
+
+        .header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #4b4b4b;
+        }
+
+        .header h2 {
+            font-size: 1.5em;
+            margin-top: 5px;
+            color: #d89659;
+        }
+
+        .section {
+            margin-top: 20px;
+        }
+
+        .section h3 {
+            background-color: #f2d5b6;
+            padding: 10px;
+            margin: 0;
+            font-size: 1.2em;
+            border-radius: 5px;
+            color: #4b4b4b;
+        }
+
+        .section p, .section ul {
+            padding: 10px;
+            margin: 0;
+            font-size: 1em;
+        }
+
+        .contact, .skills, .languages, .education {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .contact div, .skills div, .languages div, .education div {
+            width: 48%;
+        }
+
+        .skills div, .languages div {
+            margin-top: 20px;
+        }
+
+        .skills-bar, .lang-bar, .prog-bar {
+            width: 100%;
+            background-color: #ddd;
+            border-radius: 5px;
+        }
+
+        .skills-bar span, .lang-bar span, .prog-bar span {
+            display: block;
+            height: 20px;
+            border-radius: 5px;
+        }
+
+        .skills-bar span { background-color: #4b9cd3; }
+        .lang-bar span { background-color: #84a9ac; }
+        .prog-bar span { background-color: #d89659; }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f2d5b6;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="your-image-url.jpg" alt="Profile Picture">
+            <div>
+                <h1>พัชรพล หลวงภูมิ</h1>
+                <h2>Computer Science</h2>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>โปรไฟล์</h3>
+            <p>สวัสดีครับ ผมชื่อ นาย พัชรพล หลวงภูมิ กำลังศึกษาระดับปริญญาตรีชั้นปีที่ 2 สาขาวิทยาการคอมพิวเตอร์ มหาวิทยาลัยพะเยา</p>
+        </div>
+
+        <div class="section contact">
+            <div>
+                <h3>ช่องทางการติดต่อ</h3>
+                <p>โทร: 083-789-7094</p>
+                <p>อีเมล: 66020914@up.ac.th</p>
+                <p>ที่อยู่: 258/1 ม.2 ต.แม่กา อ.เมืองพะเยา จ.พะเยา 56000</p>
+            </div>
+            <div>
+                <h3>ข้อมูลส่วนตัว</h3>
+                <p>วันเกิด: 6 พฤศจิกายน พ.ศ. 2547</p>
+                <p>สัญชาติ: ไทย</p>
+                <p>เพศ: ชาย</p>
+                <p>อายุ: 20 ปี</p>
+            </div>
+        </div>
+
+        <div class="section skills">
+            <div>
+                <h3>ทักษะและความสามารถ</h3>
+                <div class="skills-bar">
+                    <span style="width: 45%;"></span> การเขียนโค้ด 45%
+                </div>
+                <div class="skills-bar">
+                    <span style="width: 55%;"></span> การสื่อสาร 55%
+                </div>
+            </div>
+            <div>
+                <h3>ทักษะด้านภาษา</h3>
+                <div class="lang-bar">
+                    <span style="width: 80%;"></span> ภาษาไทย 80%
+                </div>
+                <div class="lang-bar">
+                    <span style="width: 40%;"></span> ภาษาอังกฤษ 40%
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>โปรแกรมที่ถนัด</h3>
+            <div class="prog-bar">
+                <span style="width: 48%;"></span> Java 48%
+            </div>
+            <div class="prog-bar">
+                <span style="width: 67%;"></span> Python 67%
+            </div>
+        </div>
+
+        <div class="section education">
+            <div>
+                <h3>การศึกษา</h3>
+                <p>ปริญญาตรี - สาขาวิทยาการคอมพิวเตอร์ มหาวิทยาลัยพะเยา (2566 - ปัจจุบัน)</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 พัชรพล หลวงภูมิ</p>
+        </div>
+    </div>
+</body>
+</html>
